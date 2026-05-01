@@ -11,3 +11,14 @@ data_validation:
     - LoanAmount
     - Credit_History
     - Loan_Status
+data_transformation:
+  preprocessor_path: artifacts/preprocessor.pkl
+  target_column: Loan_Status
+  numerical_columns:
+    - ApplicantIncome
+    - LoanAmount
+  categorical_columns:
+    - Gender
+    - Married
+    - Dependents
+    - Credit_History
