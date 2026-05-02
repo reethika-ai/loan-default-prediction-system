@@ -22,3 +22,6 @@ data_transformation:
     - Married
     - Dependents
     - Credit_History
+model_trainer:
+  model_path: artifacts/model.pkl
+  
