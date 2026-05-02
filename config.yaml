@@ -24,4 +24,10 @@ data_transformation:
     - Credit_History
 model_trainer:
   model_path: artifacts/model.pkl
-  
+model_evaluation:
+  metrics_to_track:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+  metrics_artifact: artifacts/metrics.json
