@@ -1,10 +1,11 @@
 # Virtual Environment
 venv/
 env/
-
+artifacts/
 # Python cache
 __pycache__/
 *.pyc
+.venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

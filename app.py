@@ -22,6 +22,7 @@ def predict(data: LoanData):
         print("raw result:",result)
         print("type",type(result[0]))
         pred = result[0]
+
         if pred in ["Y", "N"]:
             pred = 1 if pred == "Y" else 0
 
