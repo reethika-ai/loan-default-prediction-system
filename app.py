@@ -13,14 +13,12 @@ class LoanData(BaseModel):
 @app.get("/")
 def home():
     return {"message": "loan prediction API is running"}
+pipeline= PredictPipeline()
 @app.post("/predict")
 def predict(data: LoanData):
     try:
         input_df = pd.DataFrame([data.model_dump()])
-        pipeline= PredictPipeline()
         result= pipeline.predict(input_df)
-        print("raw result:",result)
-        print("type",type(result[0]))
         pred = result[0]
 
         if pred in ["Y", "N"]:
