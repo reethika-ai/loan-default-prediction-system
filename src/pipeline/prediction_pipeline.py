@@ -7,8 +7,9 @@ from src.logger import logging
 class PredictPipeline:
     def __init__(self):
         try:
-            self.model_path = "artifacts/model.pkl"
-            self.preprocessor_path = "artifacts/preprocessor.pkl"
+            base_dir = os.getcwd()
+            self.model_path = os.path.join(base_dir, "artifacts", "model.pkl")
+            self.preprocessor_path = os.path.join(base_dir, "artifacts", "preprocessor.pkl")
         except Exception as e:
             raise CustomException(e, sys)
     def load_objects(self):
