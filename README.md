@@ -45,7 +45,14 @@ This project builds a machine learning system to automate loan approval decision
     ├── requirements.txt
     ├── README.md
 
+
 - The `artifacts/` folder stores trained models and preprocessing objects generated during pipeline execution.
+
+## System Architecture
+
+The system follows an end-to-end ML pipeline:
+
+User Input → FastAPI → Data Preprocessing → Trained ML Model → Prediction → JSON Response
 
 ## 🔄 ML Pipeline Flow
 
@@ -69,6 +76,12 @@ The model was evaluated using standard classification metrics:
 | F1 Score   | 0.90  |
 
 The high recall suggests the model minimizes false negatives, which is important in loan approval scenarios.
+
+## 🤖 Model Used
+
+- Algorithm: Random Forest 
+- Reason: Provides good balance between accuracy and interpretability
+- Training Type: Supervised Classification
 
 ## 👥 Contributions
 
@@ -144,9 +157,25 @@ POST `/predict`
   "prediction": 0,
   "status": "Rejected"
 }
+```
 
-Access API docs at:
-http://127.0.0.1:8000/docs
+## 🌐 Deployment
+
+The model is deployed using Render.
+
+👉 Live API: https://loan-default-prediction-system-5.onrender.com
+
+### Swagger UI 
+ Swagger URL : https://loan-default-prediction-system-5.onrender.com/docs
+
+### How to use
+
+Send a POST request with JSON input to the /predict endpoint.
+
+### Deployment Stack
+- Render (Cloud Hosting)
+- FastAPI (Backend API)
+- Uvicorn (Server)
 
 ## API Preview
 
@@ -162,7 +191,7 @@ The API response screenshot is stored in the repository as `screenshot.png`.
 
 ## Summary
 
-This project demonstrates a production-style machine learning pipeline with modular design and real-time inference capabilities using FastAPI.
+This project demonstrates an end-to-end machine learning system with modular design, real-time inference using FastAPI, and cloud deployment using Render.
 
 ## Key Highlights
 
