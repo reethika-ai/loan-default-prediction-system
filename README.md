@@ -150,7 +150,9 @@ http://127.0.0.1:8000/docs
 
 ## 📸 API Preview
 
-![API Screenshot](https://raw.githubusercontent.com/reethika-ai/loan-default-prediction-system/main/screenshot.png)
+The API response screenshot is stored in the repository as `screenshot.png`.
+
+![API Screenshot](screenshot.png)
 
 ## 🚀 Future Improvements
  - Deploy the API to cloud (Render)  
