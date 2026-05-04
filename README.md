@@ -15,7 +15,7 @@ This project builds a machine learning system to automate loan approval decision
 - Uvicorn
 - YAML (for configuration)
 
-## 🧱 Project Structure
+##  Project Structure
 
     loan-default-prediction-system/
     │
@@ -148,22 +148,23 @@ POST `/predict`
 Access API docs at:
 http://127.0.0.1:8000/docs
 
-## 📸 API Preview
+## API Preview
 
 The API response screenshot is stored in the repository as `screenshot.png`.
 
 ![API Screenshot](screenshot.png)
 
-## 🚀 Future Improvements
+## Future Improvements
+
  - Deploy the API to cloud (Render)  
  - Add frontend UI for user interaction  
  - Improve model performance with tuning  
 
-## 💡 Summary
+## Summary
 
 This project demonstrates a production-style machine learning pipeline with modular design and real-time inference capabilities using FastAPI.
 
-## ✅ Key Highlights
+## Key Highlights
 
 - Modular and scalable ML pipeline design  
 - Separation of training and inference workflows  
