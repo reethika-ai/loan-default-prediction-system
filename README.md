@@ -150,7 +150,7 @@ http://127.0.0.1:8000/docs
 
 ## 📸 API Preview
 
-![API Screenshot](screenshot.png)
+![API Screenshot](https://raw.githubusercontent.com/reethika-ai/loan-default-prediction-system/main/screenshot.png)
 
 ## 🚀 Future Improvements
  - Deploy the API to cloud (Render)  
