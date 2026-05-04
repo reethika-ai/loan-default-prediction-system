@@ -1,0 +1,39 @@
+2026-05-04T07:41:09.730Z INFO Is remote: false
+2026-05-04T07:41:09.731Z INFO Starting Local. Installation path: undefined
+2026-05-04T07:41:09.732Z INFO [MainProvider] Creating new MainProvider instance...
+2026-05-04T07:41:09.733Z INFO [TabsManager] Code view listener set up at initialization
+2026-05-04T07:41:09.735Z INFO Installation path exists: c:\Users\reeth\loan-default-prediction-system-new1\__pycache__
+2026-05-04T07:41:09.735Z INFO Initializing database with URL: file:C:\Users\reeth\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-05-04T07:41:09.738Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-05-04T07:41:09.740Z INFO Database initialized successfully
+2026-05-04T07:41:09.741Z INFO [Migration] Checking for database migration...
+2026-05-04T07:41:09.800Z INFO [Migration] No migration needed
+2026-05-04T07:41:49.303Z INFO Closing entire Pythagora extension...
+2026-05-04T07:41:49.308Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new ox (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:150727)
+	at i._remoteCall (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:156779)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153574)
+	at Eg._doExecuteCommand (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:48120)
+	at Eg.executeCommand (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:47567)
+	at Object.executeCommand (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:639:135762)
+	at closeEntirePythagoraExtension (c:\Users\reeth\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\reeth\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at yP._deactivate (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:14479)
+	at file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12006
+	at Array.map (<anonymous>)
+	at yP._deactivateAll (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:11994)
+	at yP.terminate (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12345)
+	at i.terminate (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:11700)
+	at ap.value (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:9847)
+	at E._deliver (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3126)
+	at E.fire (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3444)
+	at as.fire (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///c:/Users/reeth/AppData/Local/Programs/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+Extra context: {
+  "message": "Canceled"
+}
